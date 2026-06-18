@@ -30,7 +30,7 @@ def omikuji():
 
     return omikuji_list[random.randrange(10)]
 
-@app.get("/")
+@app.get("/index")
 def read_index():
     return FileResponse("index.html")
 
