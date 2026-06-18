@@ -3,6 +3,9 @@ from typing import Optional
 from fastapi import FastAPI
 
 import random  # randomライブラリを追加
+
+from fastapi.responses import FileResponse
+
 app = FastAPI()
 
 
