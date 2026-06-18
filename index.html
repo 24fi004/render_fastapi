@@ -1,7 +1,7 @@
 from fastapi.responses import HTMLResponse
 ### コードいろいろ... ###
 
-@app.get("/", response_class=HTMLResponse)
+@app.get("/index")
 def index():
     html_content = """
     <html>
