@@ -2,6 +2,7 @@ from typing import Optional
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 import random
+from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
